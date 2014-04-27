@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ToDo App mit Backbone und Coffeescript</title>
+  <meta name="description" content="Todo-App mit backbone.js und CoffeeScript erstellen." />
+  <link href="public/css/styles.css" rel="stylesheet" type="text/css" />
+  <link href="http://fonts.googleapis.com/css?family=Courgette" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+  
+  <script type="text/javascript" src="app/lib/jquery-1.11.0.js"></script>
+  <script type="text/javascript" src="app/lib/underscore.js"></script>
+  <script type="text/javascript" src="app/lib/backbone.js"></script>
+  <script type="text/javascript" src="app/lib/backbone.localStorage.js"></script>
+  <script type="text/javascript" src="public/project.js"></script>
+  
+</head>
+<body>
+  <div id="todoWrap" class="jumbotron">
+    <h1>Meine Aufgaben</h1>
+    <div class="input-group">
+      
+      <input id="createItemInput" type="text" placeholder="Neue Aufgabe erstellen" class="form-control">
+      <span class="input-group-btn">
+        <button class="btn btn-primary" type="button" id="createTask">Aufgabe erstellen</button>
+      </span>
+    </div><!-- /input-group -->
+    <br>
+    <ul id="todoList" class="list-group">
+      
+    </ul>
+    <h3>
+      <div class="panel panel-default" >
+        <div class="panel-heading">
+          <div class="panel-title" id="todoStats"></div>
+        </div>
+      </div>
+    </h3>
+  </div>
+
+</body>
+</html> 

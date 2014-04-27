@@ -1,0 +1,10 @@
+*{margin:0;padding:0;}
+body{background:url(../images/bg.png) repeat;}
+
+#todoWrap{
+  margin: 20px auto;
+  max-width: 750px;
+  min-width: 380px;
+  
+  }
+
